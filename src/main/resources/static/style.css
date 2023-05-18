@@ -1,0 +1,176 @@
+body {
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  .login-box {
+   
+    width: 100%;
+    padding: 40px;
+    background: #11385b;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+  }
+  
+  .titleCard {
+   
+    margin: 0 0 30px;
+    padding: 0;
+    color: #11385b;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Fredoka";
+    font-style: bold;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+  }
+  
+  .text1 {
+   
+    margin: 0 0 30px;
+    padding: 0;
+    color: #272932;
+    font-family: "Handlee";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .form-check-label {
+   
+    color: #fff;
+    text-align: justify;
+    font-family: "Handlee";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+  }
+  
+  .login-box .user-box {
+    position: relative;
+  }
+  
+  .login-box .user-box input {
+  
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 3px solid  #5e9fa3;;
+    outline: none;
+    background: transparent;
+    font-family: "Handlee";
+    letter-spacing: 0em;
+  }
+  
+  
+  .login-box .user-box label {
+ 
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.5s;
+  
+    font-family: "Handlee";
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+  
+    top: -20px;
+    left: 0;
+    color: #e9ecba;
+    font-size: 12px;
+    font-family: "Handlee";
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  
+  .login-box a {
+ 
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color:  #e9ecba;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-family: "Handlee";
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid  #e9ecba;;
+  }
+  
+  .login-box a:hover {
+    
+    background:  #5e9fa3;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px  #e9ecba;;
+  }
+  
+ 
+  .login-box a span {
+    position: absolute;
+    display: block;
+  }
+  
+  
+  .login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent,  #5e9fa3);
+    animation: btn-anim1 1s linear infinite;
+  }
+
+  .listaDeErrores {
+    list-style-type: none;
+  }
+  
+ 
+  .swal2-styled.swal2-confirm {
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #5e9fa3 !important;
+    color: #fff;
+    font-size: 1em;
+  }
+  
+  
+  #swal2-title {
+    position: relative;
+    max-width: 100%;
+    margin: 0;
+    padding: 0.8em 1em 0;
+    color: inherit;
+    font-size: 1.875em;
+    font-family: "Handlee" !important;
+    font-weight: 600;
+    text-align: center;
+    text-transform: none;
+    word-wrap: break-word;
+  }
+  
